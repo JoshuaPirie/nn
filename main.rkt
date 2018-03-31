@@ -1,12 +1,12 @@
 #lang racket
 
-(require "nn-types.rkt"
-          "nn-constructors.rkt"
-          "nn-utils.rkt"
-          "nn-operations.rkt")
+(require "mb-types.rkt"
+          "mb-constructors.rkt"
+          "mb-utils.rkt"
+          "mb-operations.rkt")
 
 (provide (all-from-out
-          "nn-types.rkt"
-          "nn-constructors.rkt"
-          "nn-utils.rkt"
-          "nn-operations.rkt"))
+          "mb-types.rkt"
+          "mb-constructors.rkt"
+          "mb-utils.rkt"
+          "mb-operations.rkt"))
